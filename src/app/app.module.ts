@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectComponent } from './components/project/project.component';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
     AppComponent,
     SkillsComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProjectsComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

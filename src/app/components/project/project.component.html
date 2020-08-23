@@ -1,0 +1,12 @@
+<div class="card" [ngClass]="{'rojo' : clasePm, 'mix' : claseMixed }">
+    <div class="card-img" [ngClass]="{'sombraAzul' : clasePm }">
+        <img [src]="project.urlimg" />
+    </div>
+    <div class="card-txt">
+
+        <p>{{project.name}}</p>
+        <p>{{project.company}}</p>
+        <p>{{project.language}}</p>
+        <p>{{project.description}}</p>
+    </div>
+</div>
