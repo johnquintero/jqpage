@@ -1,0 +1,39 @@
+@import '../../../styles.sass'
+
+.item-foto
+    flex-basis: 400px 
+
+.item-text
+    flex-basis: 800px
+    color: $grisClaro
+    font-size: x-large
+    align-self: center
+    font-family: Arial, Helvetica, sans-serif
+
+.bandera
+    float: right
+
+
+@media all and ( max-width: 800px )
+    .contentflex
+        display: flex
+        flex-flow: column nowrap
+        justify-content: center
+        text-align: center
+
+    .item-foto
+        flex-basis: 200px 
+        align-self: center
+        img
+            width: 50%
+
+    .item-text
+        flex-basis: 500px
+        color: $grisClaro
+        font-size: large
+    
+    .bandera
+        text-align: center
+        float: none
+
+

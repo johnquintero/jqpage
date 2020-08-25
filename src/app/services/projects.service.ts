@@ -37,7 +37,7 @@ export class ProjectsService {
       name: "Portal Clientes",
       company:"Etna - Fabrica Nacional de Acumuladores",
       language : "ASP.Net C# - SOAP - REST - MSSqlServer (StoreProcedures) - SAP B1 SDK",
-      description: "Portal web para que los distribuidores puedan realizar pedidos, colocar reclamos.",
+      description: "Web portal for distributors to place orders, place claims.",
       role:"dev"
 
     }

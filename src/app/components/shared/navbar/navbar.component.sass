@@ -2,6 +2,7 @@
 
 .nav
     display: flex
+    flex-flow: row nowrap
     justify-content: flex-end
     width: 100%
     height: 60px
@@ -11,18 +12,45 @@
     left: 0
     font-family: 'Fredoka One', cursive !important
     z-index: 3
-    
-
-    span
+    div
         align-self: center
-        width: 40px
-        flex-basis: 100px
-        color: $grisClaro
-        font-size: 24px
-        text-align: center
+
+        
+    .icon
+        display: none
+
+    
+    // span
+    //     align-self: center
+    //     width: 40px
+    //     flex-basis: 100px
+    //     color: $grisClaro
+    //     font-size: 24px
+    //     text-align: center
         
 .logo 
-    margin-left: 15px
-    flex-grow: 4
-    align-self: center
+    top: 5px
+    margin-left: 10px
+    z-index: 4
+    position: fixed
+
     
+@media screen and (max-width: 600px)
+    .nav div
+        display: none
+    .nav div.icon
+        align-self: center
+        display: block
+
+@media screen and (max-width: 600px)
+    .nav.responsive
+        flex-flow: column wrap
+        justify-content: flex-end
+        height: auto
+    
+    .nav.responsive div.icon
+        margin-top : 14px
+
+    .nav.responsive div
+        display: block
+        align-self: flex-end

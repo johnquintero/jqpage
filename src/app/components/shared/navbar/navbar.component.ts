@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  responsive : boolean = false;
   constructor() { }
+
 
   ngOnInit(): void {
   }
+
+  
 
 }
