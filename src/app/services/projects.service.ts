@@ -7,7 +7,7 @@ export class ProjectsService {
 
   private projects : Project[] =[
     {
-      urlimg: "../../../assets/img/imgproject.png",
+      urlimg: "assets/img/imgproject.png",
       name: "Administrador de Creditos",
       company:"Contact Center Americas",
       language : "ASP.Net C# - JS - CSS - MS SqlServer (stored procedures)",
@@ -15,7 +15,7 @@ export class ProjectsService {
       role:"dev"
     },
     {
-      urlimg: "../../../assets/img/imgproject.png",
+      urlimg: "assets/img/imgproject.png",
       name: "OSAS",
       company:"Nexos Software",
       language : "ASP.Net C# - JS - CSS - EF -  WCF - Telerik - MS SqlServer | PMI",
@@ -24,7 +24,7 @@ export class ProjectsService {
 
     },
     {
-      urlimg: "../../../assets/img/imgproject.png",
+      urlimg: "assets/img/imgproject.png",
       name: "Sistema Integrado de Ventas",
       company:"Enel Codensa",
       language : "PMI - MS Project",
@@ -33,7 +33,7 @@ export class ProjectsService {
 
     },
     {
-      urlimg: "../../../assets/img/imgproject.png",
+      urlimg: "assets/img/imgproject.png",
       name: "Portal Clientes",
       company:"Etna - Fabrica Nacional de Acumuladores",
       language : "ASP.Net C# - SOAP - REST - MSSqlServer (StoreProcedures) - SAP B1 SDK",
