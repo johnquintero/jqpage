@@ -25,12 +25,10 @@ export class ProjectComponent implements OnInit {
 
     if (this.project.role === 'mix') {
       this.claseMixed =  true;
-      console.log(this.project);
+      //console.log(this.project);
       
     }
-    console.log('aui voy');
-    
-    console.log(this.project);
+
     
   }
 

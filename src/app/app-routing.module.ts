@@ -12,7 +12,7 @@ const routerOptions: ExtraOptions = {
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'content',
     component : AppComponent,
   },
   {
