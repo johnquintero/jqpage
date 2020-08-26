@@ -10,6 +10,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectComponent } from './components/project/project.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { ContentComponent } from './components/content/content.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     ProjectsComponent,
     ProjectComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
