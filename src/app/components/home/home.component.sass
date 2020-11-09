@@ -9,7 +9,7 @@ div
     //height: auto
     left: 0px
     top: 0px
-    background-image: url('../../../assets/img/JQ Fondo.jpg') 
+    background-image: url('../../../assets/img/JQ Fondo.jpg')
     background-size: cover
     z-index: -1
 
@@ -59,10 +59,24 @@ div
     color: $rojo
     font-size: 3rem
 
+ul
+  padding:0 0 0 16%
+  list-style: none
+  margin-top: 0
+li
+  text-align: initial
+
 @media all and ( max-width: 800px )
     .centro
         flex-direction: column
 
     .fondo, .cristal, .container
         width: 100%
-    
+
+    .rojo
+      font-size: 2rem
+
+    ul
+      padding-left : 30px
+      list-style: none
+      font-size : 1.5rem

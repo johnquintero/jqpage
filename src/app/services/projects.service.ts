@@ -8,7 +8,7 @@ export class ProjectsService {
   private projects : Project[] =[
     {
       urlimg: "assets/img/imgproject.png",
-      name: "Administrador de Creditos",
+      name: "Web credit management system",
       company:"Contact Center Americas",
       language : "ASP.Net C# - JS - CSS - MS SqlServer (stored procedures)",
       description: "Web credit management system, where users can request a credit through the Crédito Facil Codensa program and pay it easily on your energy bill. ",
@@ -25,7 +25,7 @@ export class ProjectsService {
     },
     {
       urlimg: "assets/img/imgproject.png",
-      name: "Sistema Integrado de Ventas",
+      name: "Integrated sales system",
       company:"Enel Codensa",
       language : "PMI - MS Project",
       description: "Project management for the implementation of an integrated microinsurance sales system and magazine subscription for the use of more than 500 sales consultants.",
@@ -34,8 +34,8 @@ export class ProjectsService {
     },
     {
       urlimg: "assets/img/imgproject.png",
-      name: "Portal Clientes",
-      company:"Etna - Fabrica Nacional de Acumuladores",
+      name: "Client Portal",
+      company:"Etna - National accumulator factory",
       language : "ASP.Net C# - SOAP - REST - MSSqlServer (StoreProcedures) - SAP B1 SDK",
       description: "Web portal for distributors to place orders, place claims.",
       role:"dev"
